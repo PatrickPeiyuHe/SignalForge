@@ -248,7 +248,7 @@ daily_top10_records/selections/latest_selection_row.csv
 
 The one-row daily selection table contains `trade_date`, copy-ready Top 10 code strings, rank-level codes, weights, scores, board tags, and industry tags.
 
-## Suggested Repo Layout
+## Repo Layout
 
 ```text
 signalforge/
