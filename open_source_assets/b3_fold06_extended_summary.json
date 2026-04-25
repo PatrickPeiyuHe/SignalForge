@@ -1,0 +1,44 @@
+{
+  "checkpoint_epoch": 75,
+  "signal_start": "20240507",
+  "signal_end": "20260227",
+  "signal_days": 440,
+  "selected_rows": 4400,
+  "unique_selected_codes": 1538,
+  "gross": {
+    "start_date": "20240508",
+    "end_date": "20260304",
+    "points": 442,
+    "final_nav": 4.353648587746631,
+    "annualized_return": 1.3177098651444021,
+    "sharpe": 2.7869685105334976,
+    "max_drawdown": -0.13688699693265238,
+    "positive_day_ratio": 0.581447963800905,
+    "avg_exposure": 1.0,
+    "active_day_ratio": 1.0,
+    "best_month_ret": 0.2612734306548261,
+    "worst_month_ret": -0.056601235590823085,
+    "entry_block_rate": 0.014090909090909091,
+    "exit_block_rate": 0.07045454545454545,
+    "avg_exit_delay_days": 2.4536423841059603
+  },
+  "net": {
+    "start_date": "20240508",
+    "end_date": "20260304",
+    "points": 442,
+    "final_nav": 2.9627506746555645,
+    "annualized_return": 0.8601161370089945,
+    "sharpe": 2.114965450628936,
+    "max_drawdown": -0.17985922452467662,
+    "positive_day_ratio": 0.5656108597285068
+  },
+  "tradability": {
+    "entry_block_rate": 0.014090909090909091,
+    "exit_block_rate": 0.07045454545454545,
+    "avg_exit_delay_days": 2.4536423841059603
+  },
+  "cost_assumption": {
+    "buy_cost_bps": 12.6,
+    "sell_cost_bps": 17.6
+  }
+}
