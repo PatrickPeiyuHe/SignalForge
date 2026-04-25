@@ -1,8 +1,10 @@
 # SignalForge: Multi-Path Deep Learning For A-Share Signal Compression
 
-SignalForge is a production-style daily stock selection framework for China A-shares. The core idea is simple: quantitative investing is signal-to-noise engineering.
+SignalForge is a short-horizon, medium-frequency cross-sectional stock selection framework for China A-shares. It produces one ranked list per trading day and evaluates the signal under an executable `T+1` adjusted-open entry and `T+3` adjusted-close exit protocol. The public benchmark uses equal-weight daily Top 10 portfolios, while the production alpha layer remains private.
 
-Financial markets are noisy, non-stationary, and constrained by execution. A useful model has to compress raw observations into durable, tradable signals. Classical factor research improves signal-to-noise by designing transformations such as momentum, reversal, quality, liquidity, valuation, and event factors. In deep learning, architecture plays the same role as a learnable compression mechanism: CNNs, GRUs, attention, MLP towers, and FiLM are useful when they are matched to the right data frequency, clean as-of-date samples, and a tradable task definition. The goal is to discard unstable noise while preserving information that survives execution.
+China A-shares are a natural market for this design. The market has broad retail participation, strong sentiment cycles, daily price limits, board-specific liquidity segmentation, ST and suspension edge cases, and frequent shifts between risk appetite and liquidity stress. These features create room for short-horizon cross-sectional signals, while also making leakage control, tradability modeling, and execution-aware evaluation essential.
+
+The core philosophy is signal-to-noise engineering. Classical factor research improves signal-to-noise by designing transformations such as momentum, reversal, quality, liquidity, valuation, and event factors. In deep learning, architecture plays the same role as a learnable compression mechanism: CNNs, GRUs, attention, MLP towers, and FiLM are useful when they are matched to the right data frequency, clean as-of-date samples, and a tradable task definition. The goal is to discard unstable noise while preserving information that survives execution.
 
 This public version focuses on architecture, research-engineering discipline, data hygiene, and evaluation protocol. Production feature definitions, trained weights, API credentials, live selections, exact selector logic, and private training recipes remain private.
 
@@ -291,7 +293,7 @@ This repository is an architecture and engineering template. The historical resu
 
 ## License And Contact
 
-SignalForge is source-available for portfolio review, research discussion, and non-commercial educational reference. Production use, redistribution, derivative works, commercial use, or use in a trading system requires prior written permission.
+SignalForge is licensed under the `PolyForm Noncommercial License 1.0.0`. Noncommercial research, study, and evaluation are allowed under that license. Commercial use, production use, redistribution outside the license terms, or use in a trading system requires prior written permission.
 
 For permission, collaboration, recruiting discussion, or commercial use:
 

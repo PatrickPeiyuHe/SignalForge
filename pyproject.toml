@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Public SignalForge components for A-share signal compression research."
 readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "PolyForm-Noncommercial-1.0.0" }
 dependencies = [
   "pandas>=2.0",
   "torch>=2.0",
